@@ -1,5 +1,7 @@
-pub mod secret_number_game;
+mod unicode_fixer;
 
-pub fn main() {
+use crate::unicode_fixer::{unicode_fixer_main};
 
+fn main() {
+    unicode_fixer_main()
 }
